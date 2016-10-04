@@ -5,6 +5,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>User Information</title>
     </head>
+    
+    <%
+        String firstName = request.getParameter("first");
+        String lastName = request.getParameter("last");
+        String email = request.getParameter("email");
+        String age = request.getParameter("age");
+        
+        %>
+    
     <body>
         <h1>User Information</h1>
         
@@ -12,22 +21,22 @@
             <tbody>
                 <tr>
                     <td>First Name:</td>
-                    <td></td>
+                    <td><%= firstName %></td>
                 </tr>
                 
                 <tr>
                     <td>Last Name:</td>
-                    <td></td>
+                    <td><%= lastName %></td>
                 </tr>
                 
                 <tr>
                     <td>Email:</td>
-                    <td></td>
+                    <td><%= email %></td>
                 </tr>
                 
                 <tr>
                     <td>Age:</td>
-                    <td></td>
+                    <td><%= age %></td>
                 </tr>
             </tbody>
         </table>
