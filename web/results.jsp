@@ -8,7 +8,7 @@
     <body>
         <h1>User Information</h1>
         
-        <table>
+        <table border="1">
             <tbody>
                 <tr>
                     <td>First Name:</td>
