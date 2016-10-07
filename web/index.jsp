@@ -42,8 +42,22 @@
                     <tr>
                         <td>Where were you born...</td>
                         <td>
-                            <input type="radio" name="gender" value="Male"> Male
-                            <input type="radio" name="gender" value="Female"> Female
+                            <select name="state">
+                                <option value="">Choose a state...</option>
+                                <option value="IA">Iowa</option>
+                                <option value="IL">Illinois</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MO">Missouri</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OR">Oregon</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="FL">Florida</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="other">Other</option>
+                            </select>
                         </td>
                     </tr>
                 </tbody>

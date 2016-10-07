@@ -13,7 +13,8 @@
         int age = Integer.parseInt(request.getParameter("age"));
         int agePlusOne = age + 1;
         String gender = request.getParameter("gender");
-        
+        String state = request.getParameter("state");
+
         %>
     
     <body>
@@ -49,6 +50,11 @@
                 <tr>
                     <td>Gender:</td>
                     <td><%= gender %></td>
+                </tr>
+                
+                <tr>
+                    <td>The state you were born in...</td>
+                    <td><%= state %></td>
                 </tr>
             </tbody>
         </table>
