@@ -88,16 +88,17 @@
                      <tr>
                         <td>This class is:</td>
                         <td>
-                            <input type="checkbox" name="class" value="awesome"> Awesome
-                            <input type="checkbox" name="class" value="outstanding"> Outstanding
-                            <input type="checkbox" name="class" value="exciting"> Exciting
-                            <input type="checkbox" name="class" value="speedy"> Speedy
+                            <input type="checkbox" name="classEval" value="Awesome"> Awesome <br>
+                            <input type="checkbox" name="classEval" value="Outstanding"> Outstanding <br>
+                            <input type="checkbox" name="classEval" value="Exciting"> Exciting <br>
+                            <input type="checkbox" name="classEval" value="Speedy"> Speedy
                         </td>
-                    </tr>
+                    </tr>                    
+                    
                 </tbody>
                 
             </table>
-            .
+            <br><br>
             <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
             

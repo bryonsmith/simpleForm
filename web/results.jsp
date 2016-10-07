@@ -14,7 +14,7 @@
         int agePlusOne = age + 1;
         String gender = request.getParameter("gender");
         String state = request.getParameter("state");
-
+        
         %>
     
     <body>
@@ -56,6 +56,29 @@
                     <td>The state you were born in...</td>
                     <td><%= state %></td>
                 </tr>
+                
+                <tr>
+                    <td>This class is very:</td>
+                    <td><%
+                        String[] classEval;
+                        
+                            classEval = request.getParameterValues("classEval");
+                        
+                            if (classEval != null)
+                            {
+                                for (int i=0; i<classEval.length; i++)
+                                {
+                                    out.println("  " + classEval[i] + " ");
+                                }
+                            }
+                        
+                            else
+                            
+                                out.println("none");
+
+                    %></td>
+                </tr>
+                
             </tbody>
         </table>
         
