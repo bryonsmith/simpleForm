@@ -17,20 +17,36 @@
                     </tr>
                     
                     <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                                        
+                    <tr>
                         <td>Last Name:</td>
                         <td><input type="text" name="last" value="" size="50"></td>
                     </tr>
                     
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                                        
                     <tr>
                         <td>Email:</td>
                         <td><input type="email" name="email" value="" size="50"></td>
                     </tr>
                     
                     <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                                        
+                    <tr>
                         <td>Age:</td>
                         <td><input type="text" name="age" value="" size="50" required></td>
                     </tr>
                     
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                                        
                     <tr>
                         <td>Gender:</td>
                         <td>
@@ -39,6 +55,10 @@
                         </td>
                     </tr>
                     
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                                        
                     <tr>
                         <td>Where were you born...</td>
                         <td>
@@ -58,6 +78,20 @@
                                 <option value="AZ">Arizona</option>
                                 <option value="other">Other</option>
                             </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&nbsp;</td><td>&nbsp;</td>
+                    </tr>
+                    
+                     <tr>
+                        <td>This class is:</td>
+                        <td>
+                            <input type="checkbox" name="class" value="awesome"> Awesome
+                            <input type="checkbox" name="class" value="outstanding"> Outstanding
+                            <input type="checkbox" name="class" value="exciting"> Exciting
+                            <input type="checkbox" name="class" value="speedy"> Speedy
                         </td>
                     </tr>
                 </tbody>
