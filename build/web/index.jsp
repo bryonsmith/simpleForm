@@ -23,12 +23,12 @@
                     
                     <tr>
                         <td>Email:</td>
-                        <td><input type="text" name="email" value="" size="50"></td>
+                        <td><input type="email" name="email" value="" size="50"></td>
                     </tr>
                     
                     <tr>
                         <td>Age:</td>
-                        <td><input type="text" name="age" value="" size="50"></td>
+                        <td><input type="text" name="age" value="" size="50" required></td>
                     </tr>
                     
                 </tbody>
