@@ -31,6 +31,21 @@
                         <td><input type="text" name="age" value="" size="50" required></td>
                     </tr>
                     
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Where were you born...</td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+                    </tr>
                 </tbody>
                 
             </table>

@@ -12,6 +12,7 @@
         String email = request.getParameter("email");
         int age = Integer.parseInt(request.getParameter("age"));
         int agePlusOne = age + 1;
+        String gender = request.getParameter("gender");
         
         %>
     
@@ -43,6 +44,11 @@
                 <tr>
                     <td>Your age next year will be:</td>
                     <td><%= age %></td>
+                </tr>
+                
+                <tr>
+                    <td>Gender:</td>
+                    <td><%= gender %></td>
                 </tr>
             </tbody>
         </table>
