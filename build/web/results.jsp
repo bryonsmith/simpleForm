@@ -74,7 +74,7 @@
                         
                             else
                             
-                                out.println("none");
+                                out.println("borning");
 
                     %></td>
                 </tr>
